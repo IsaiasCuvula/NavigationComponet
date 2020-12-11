@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import com.bersyte.navigationcomponet.R
 
 
-class ChooseRecientFragment : Fragment() {
-
+class ViewBalanceFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,8 +19,7 @@ class ChooseRecientFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        return inflater.inflate(R.layout.fragment_choose_recient, container, false)
+        return inflater.inflate(R.layout.fragment_view_balance, container, false)
     }
 
 }
